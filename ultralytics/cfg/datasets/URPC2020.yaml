@@ -6,24 +6,18 @@
 # ├── ultralytics
 # └── datasets
 #     └── coco8  ← downloads here (1 MB)
-nc: 10
+
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
-path: ../datasets/RUOD # dataset root dir
+path: /datasets/URPC2020 # dataset root dir
 train: images/train # train images (relative to 'path') 4 images
-val: images/test # val images (relative to 'path') 4 images
-test: # test images (optional)
+val: images/val # val images (relative to 'path') 4 images
+test: images/test # test images (optional)
 
 # Classes
 names:
-  0: holothurian
-  1: echinus
-  2: scallop
-  3: starfish
-  4: fish
-  5: corals
-  6: diver
-  7: cuttlefish
-  8: turtle
-  9: jellyfish
+  0: echinus
+  1: starfish
+  2: holothurian
+  3: scallop
   
-
+  
