@@ -1,12 +1,10 @@
-# UODMamba
+# GFnet
 
-Mamba-based underwater object detection model built on Ultralytics YOLO.
+underwater object detection model built on Ultralytics YOLO.
 
 ## Installation
 
 ```bash
-pip install seaborn thop timm einops
-cd selective_scan && pip install . && cd ..
 pip install ultralytics
 ```
 
@@ -15,8 +13,8 @@ pip install ultralytics
 ```python
 from ultralytics import YOLO
 
-model = YOLO("ultralytics/cfg/models/UOD/UODMamba.yaml")
-model.train(data="ultralytics/cfg/datasets/DUO.yaml", epochs=300, batch=16)
+model = YOLO("ultralytics/cfg/models/UOD/GFnet.yaml")
+model.train(data="ultralytics/cfg/datasets/URPC.yaml", epochs=300, batch=16)
 ```
 
 ## Datasets
