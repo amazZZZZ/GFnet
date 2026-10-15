@@ -38,7 +38,4 @@ head:
   - [[-1, 9], 1, CF1, [256]] # cat head P5
   - [-1, 1, RepNCSPELAN4, [256, 256, 128, 3]] # 21 (P5/32-large)
 
-  - [[4, 6, 8], 1, DynamicScalSeq, [128]] # 22 args[inchane]
-  - [[15, -1], 1, LearnableAdd, [128]] # 23
-
-  - [[23, 18, 21], 1, Detect, [nc]] # Detect(P3, P4 P5)
+  - [[15, 18, 21], 1, Detect, [nc]] # Detect(P3, P4 P5)
